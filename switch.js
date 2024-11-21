@@ -24,5 +24,7 @@ switch (fruits) {
   case 'orange':
     favorite = 'no';
     break;
+  default:
+    favorite = 'um..'; // 선택지가 없을 때 출력
 }
 console.log(favorite); // yes
